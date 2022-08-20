@@ -16,6 +16,7 @@ class TaskController extends Controller
     public function index()
     {
         // メッセージ一覧を取得
+        // Static関数を呼ぶという感覚
         $tasks = Task::all();
 
         // メッセージ一覧ビューでそれを表示
